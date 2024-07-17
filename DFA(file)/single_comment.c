@@ -46,7 +46,7 @@ bool isSingleLineComment(const char *str) {
 }
 
 int main() {
-    printf("\n\n");
+    printf("Suyog Rana Magar\n");
     const char *comment1 = "// Comment_1";
     const char *notComment1 = "/ Comment_2";
     

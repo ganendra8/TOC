@@ -15,6 +15,8 @@ enum states delta(enum states s, char ch);
 int iskeyword(char str[]);
 
 int main() {
+
+    printf("Suyog Rana Magar\n");
     enum states curr_state = q0;
     char string[20], ch;
     int i = 0;
@@ -65,7 +67,7 @@ enum states delta(enum states s, char ch) {
     return curr_state;
 }
 
-// Function to check if a string is a keyword
+
 int iskeyword(char str[]) {
     for (int i = 0; i < 32; i++) {
         if (strcmp(str, keywords[i]) == 0)

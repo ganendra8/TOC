@@ -53,6 +53,7 @@ int main() {
     const char *notComment2 = "/ Comment_3 */";
     const char *comment2 = "/* This is a\nmulti-line\ncomment */";
     
+    printf("Suyog Rana Magar\n");
     printf("%s: %s\n", comment1, isMultiLineComment(comment1) ? "Valid comment" : "Not a valid comment");
     printf("%s: %s\n", notComment1, isMultiLineComment(notComment1) ? "Valid comment" : "Not a valid comment");
     printf("%s: %s\n", notComment2, isMultiLineComment(notComment2) ? "Valid comment" : "Not a valid comment");
